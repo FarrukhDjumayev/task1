@@ -1,0 +1,108 @@
+1. HTML nima? 
+1)Veb sahifalar yaratish uchun yordamchi til
+2.DOCTYPE nima?
+2)HTML ning versiyasini bildiradi va sahifa bilan to'gri ishlashga yordam beradi
+3.Sarlavha teglari qanday?
+3)h1 dan h6 gacha
+4.Biror bir saytga link qanday yasaladi?
+4)a href orqali <a href="Url linkimiz">va uni nomi<a/>
+5.ro'yxat turlari qanday?
+5)ordered va unordered <ol> <ul>
+6.htmlda jadval qanday yaratiladi?
+6)table orqali yani <table>, <tr>, <td> teglari bilan
+7.html da javascript linki qayerda qo'yiladi?
+7)body ni eng pastiga
+8. <br> nima?
+8) br break yani bo'luvchi teg hisoblanadi
+9. css fayl siz qanday qilib kodimizga ko'rinish beramiz?
+9)html da <style> tegidan foydalangan holda qilamiz yokida tailwind css dan foydalanib
+10.HTMLda <mark> elementi nima uchun ishlatiladi?
+10)matn Ichida biror bir so'zni sariq rang bilan ko'zga tashlanadigan qilish uchun ishlatiladi
+11. HTML da <button> bilan <input type="button"> ni nima farqi bor?
+11)<button> ga matn, rasm, ikonka joylashtirsa bo'ladi. <input type="button">da esa faqat bir qiymatga ega bo'lgan tugma yaratiladi ok😁
+12.<em> va <strong> ni nima farqi bor?
+12) <em> so'zga italic koranic beradi <strong> esa "bold" ko'rinish.
+13.<i> va <em> ni nima farqi bor?
+13)<i> faqat italic qiladi, <em> esa urg'u beradi ekran o'quvchi dasturlar uchun (for blind people)
+14.<ifrane> nima uchun ishlatiladi?
+14)biror bir saytni yokida sahifani o'zimiznikiga o'rnatishda ishlatiladi.
+15.input turlariga 3 ta misol keltiring?
+15)text, checkbox, password
+16.placeholder nima uchun ishlatiladi?
+16)input elementiga vaqtinchalik matn qo'yish uchun.
+17.inline bilann blok ni nima farqi bor?
+17)blok element butun qatorni egallaydi, inline esa faqat o'zining ichidagi elementni joyini egallaydi
+18.<div> va <span> ning farqi nima?
+18)<div> blok, <span> esa inline
+19.Formalarni yuborish uchun qaysi tegdan foydalaniladi?
+19)<button type="submit"> yokida <input type="submit">
+20.HTMLda sahifa haqida ma'lumotlarni ko'rsatish uchun qaysi teg ishlatiladi?
+20)meta tegi
+
+
+
+1.CSS nima uchun kerak?
+1)Veb-sahifaga uslub va dizayn berish uchun.
+2.CSS qanday ulanadi?
+2)Ichki, tashqi yoki inline usulda.
+3.Matnni markazlashtirish uchun nima qilinadi?
+3)text-align: center; ishlatiladi.
+4.Elementning fon rangi qanday o'zgartiriladi?
+4)background-color bilan. Misol: background-color: yellow;.
+5.Chegarani (border) qanday qo'shamiz?
+5)border xususiyati bilan. Misol: border: 1px solid black;.
+6.Rasmni qanday markazlashtiramiz?
+6)display: block; margin: auto; yordamida.
+7.Matnga soya qanday qo'shiladi?
+7)text-shadow bilan. Misol: text-shadow: 2px 2px 5px gray;.
+8.Elementni aylantirish uchun nima ishlatiladi?
+8)transform: rotate();. Misol: transform: rotate(45deg);.
+9.Elementni ko'rsatmaslik uchun nima qilinadi?
+9)display: none; yoki visibility: hidden;.
+10.Hover effektini qanday qo'shamiz?
+:hover  orqali. Misoluchun:
+a:hover {
+	 color: red; }
+
+
+
+				KONSPEKT
+
+javascriptda o'zgaruvchilar variables deyiladi. o'zgaruvchi malumotni saqlash uchun ishlatiladi. Javascriptda o'zgaruvchini var, let, const bilan elon qiladi.
+var eski usul, global yoki funksiya Ichida ishlaydi
+let blok Ichida ishlaydi yani biz ko'pincha ishlatadiganimiz
+const esa qiymati o'zgarmas bo'ladi unga faqat bitta qiymat beriladi va u o'zgarmaydi
+var ism = "Asus";
+let yosh = 11;
+const pi = 3.14;
+javascripda malumot turlari data types deb ataladi. Ular
+string - matn ko'rinishidagi malumotlar
+number - raqamli qiymatlar
+Boolean - mantiqiy qiymatlar false va true bo'ladi
+undefined - qiymat berilmagan bo'ladi yani let x;
+null - qiymati yo'q,  let a = null;
+symbol - unikal indentifikator yaratish uchun ishlatiladi, unikal degani takrorlanmas,
+bigInt - juda katta raqamlar uchun ishlatiladi
+aytgancha data typelar ikki bo'linadi primative va non-primative yokida reference deb ham ataladi data type lar 8 ta bo'ladi 7 ta primative va 1 ta reference
+o'sha bitta reference "Object" deb ataladi va u ham ham uchga bo'linadi
+oddiy object, array, va  function yani funksiya deb ataladi
+
+
+			js reserved keywords
+1. break          2. case
+3. catch          4. class
+5. const          6. continue
+7. debugger       8. default
+9. delete         10. do
+11. else           12. finally
+13. for            14. function
+15. if             16. import
+17. in             18. instanceof
+19. let            20. new
+21. null           22. return
+23. super          24. switch
+25. this           26. throw
+27. try            28. typeof
+29. var            30. void
+31. while          32. with
+
